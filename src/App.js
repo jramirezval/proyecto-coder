@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import {Navbar,Nav,NavDropdown} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
+import ItemlistContainer from './components/ItemListContainer';
+
+
+
 
 function App() {
   return (
-<NavBar/>
 
+
+<div>
+<NavBar/>
+<ItemlistContainer greeting='BIENVENIDO AL LANDING DE LA TIENDA'/>
+</div>
     );
 }
 
